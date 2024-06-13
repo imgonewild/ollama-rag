@@ -53,6 +53,7 @@ def find_most_similar(needle, haystack):
     return sorted(zip(similarity_scores, range(len(haystack))), reverse=True)
 
 def main():
+    start_time = time.time()
     SYSTEM_PROMPT = """You are a helpful reading assistant who answers questions 
         based on snippets of text provided in context. Answer only using the context provided, 
         being as concise as possible. If you're unsure, just say that you don't know.
@@ -68,7 +69,7 @@ def main():
     embeddings = get_embeddings(pdf_filename, "llama3", paragraphs)
 
     # Get user query
-    prompt = input("What do you want to know? -> ")
+    prompt = "Which page can I check QC?"
     prompt_embedding = ollama.embeddings(model="llama3", prompt=prompt)["embedding"]
 
     # Find most similar paragraphs
@@ -87,8 +88,8 @@ def main():
             {"role": "user", "content": prompt},
         ],
     )
-    print("\n\n")
     print(response["message"]["content"])
+    print("--- %s seconds ---" % (time.time() - start_time))
 
 if __name__ == "__main__":
     main()
