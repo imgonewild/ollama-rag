@@ -54,14 +54,20 @@ def find_most_similar(needle, haystack):
 
 def main():
     start_time = time.time()
-    SYSTEM_PROMPT = """You are a helpful reading assistant who answers questions 
-        based on snippets of text provided in context. Answer only using the context provided, 
-        being as concise as possible. If you're unsure, just say that you don't know.
-        Context:
+
+    SYSTEM_PROMPT_TEMPLATE = """
+    Answer the question based only on the following context:
+
+    {context}. Do not make up answers or use outside information.
+
+    ---
+
+    Answer the question based on the above context: {question}. Do not make up answers or use outside information. Reply with section titles that are relevant to the answers.
+    Reply in the format: {{"answer": "your_answer_here", "source": "your_section_title_here"}}
     """
-    
+
     # Extract text from PDF
-    pdf_filename = "FF_Extrusion_Reporting-Operator-Full-20220724.pdf"
+    pdf_filename = "Adhesive, 3M Spray Adhesive 90 SDS (aerosol).pdf"
     text = extract_text_from_pdf(pdf_filename)
     paragraphs = parse_text(text)
 
@@ -69,25 +75,26 @@ def main():
     embeddings = get_embeddings(pdf_filename, "llama3", paragraphs)
 
     # Get user query
-    prompt = "Which page can I check QC?"
+    prompt = "What is the product description?"
+    
     prompt_embedding = ollama.embeddings(model="llama3", prompt=prompt)["embedding"]
 
     # Find most similar paragraphs
     most_similar_chunks = find_most_similar(prompt_embedding, embeddings)[:5]
     context = "\n".join(paragraphs[idx] for _, idx in most_similar_chunks)
 
+    # Format the system prompt with context and question
+    system_prompt = SYSTEM_PROMPT_TEMPLATE.format(context=context, question=prompt)
+
     # Generate response using ollama
     response = ollama.chat(
         model="llama3",
         messages=[
-            {
-                "role": "system",
-                "content": SYSTEM_PROMPT
-                + "\n".join(paragraphs[item[1]] for item in most_similar_chunks),
-            },
+            {"role": "system", "content": system_prompt},
             {"role": "user", "content": prompt},
         ],
     )
+
     print(response["message"]["content"])
     print("--- %s seconds ---" % (time.time() - start_time))
 
