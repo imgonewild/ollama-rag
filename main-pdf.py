@@ -63,7 +63,8 @@ def main():
     ---
 
     Answer the question based on the above context: {question}. Do not make up answers or use outside information. Reply with section titles that are relevant to the answers.
-    Reply in the format: {{"answer": "your_answer_here", "source": "your_section_title_here"}}
+    Reply in the format: {{"answer": "your_answer_here", "source": "your_section_title_here"}} and if the answer contain multiple answers, then combine to one single answer like:
+    {{"answer": "answer1, answer2, answer3, etc", "source": "source1, source2, source3, etc"}}
     """
 
     # Extract text from PDF
@@ -75,7 +76,7 @@ def main():
     embeddings = get_embeddings(pdf_filename, "llama3", paragraphs)
 
     # Get user query
-    prompt = "What is the product description?"
+    prompt = "What are the composition and ingredients of the product?"
     
     prompt_embedding = ollama.embeddings(model="llama3", prompt=prompt)["embedding"]
 
