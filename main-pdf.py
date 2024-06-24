@@ -17,6 +17,7 @@ def extract_text_from_pdf(filename):
 # Function to parse text into paragraphs
 def parse_text(text):
     paragraphs = text.split('\n\n')
+    # print(paragraphs)
     return [para.strip() for para in paragraphs if para.strip()]
 
 # Function to save embeddings
@@ -56,19 +57,18 @@ def main():
     start_time = time.time()
 
     SYSTEM_PROMPT_TEMPLATE = """
-    Answer the question based only on the following context:
-
-    {context}. Do not make up answers or use outside information.
-
+    Answer the question: {context}. 
     ---
-
-    Answer the question based on the above context: {question}. Do not make up answers or use outside information. Reply with section titles that are relevant to the answers.
-    Reply in the format: {{"answer": "your_answer_here", "source": "your_section_title_here"}} and if the answer contain multiple answers, then combine to one single answer like:
-    {{"answer": "answer1, answer2, answer3, etc", "source": "source1, source2, source3, etc"}}
+    Answer the question based on the above context: {question}. Search the context title first.
+    Do not make up answers or use outside information.
+    Reply with section titles that are relevant to the answers.
+    Reply in the format: {{"answer": "your_answer_here", "source": "your_section_title_here"}} 
+    and if the answer contain multiple answers, then combine to one single answer and reply in the format: {{"answer": "answer1, answer2, answer3, etc", "source": "source1, source2, source3, etc"}}
+    and if you dont know the answer then reply {{"answer": "I dont know", "source": "N/A"}}
     """
 
     # Extract text from PDF
-    pdf_filename = "Adhesive, 3M Spray Adhesive 90 SDS (aerosol).pdf"
+    pdf_filename = "Kleiberit 826.0 Cleaner.pdf"
     text = extract_text_from_pdf(pdf_filename)
     paragraphs = parse_text(text)
 
@@ -76,7 +76,7 @@ def main():
     embeddings = get_embeddings(pdf_filename, "llama3", paragraphs)
 
     # Get user query
-    prompt = "What are the composition and ingredients of the product?"
+    prompt = "What are the safety precautions and handling instructions for using the product?"
     
     prompt_embedding = ollama.embeddings(model="llama3", prompt=prompt)["embedding"]
 
@@ -96,6 +96,7 @@ def main():
         ],
     )
 
+    print(prompt)
     print(response["message"]["content"])
     print("--- %s seconds ---" % (time.time() - start_time))
 

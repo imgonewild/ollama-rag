@@ -61,7 +61,7 @@ def main():
     """
     
     # Extract text from PDF
-    pdf_filename = "FF_Extrusion_Reporting-Operator-Full-20220724.pdf"
+    pdf_filename = "Kleiberit 826.0 Cleaner.pdf"
     text = extract_text_from_pdf(pdf_filename)
     paragraphs = parse_text(text)
 
@@ -69,7 +69,7 @@ def main():
     embeddings = get_embeddings(pdf_filename, "nomic-embed-text", paragraphs)
 
     # Get user query
-    prompt = "Which page can I check QC?"
+    prompt = "What are the hazard classifications associated with the product?"
     prompt_embedding = ollama.embeddings(model="nomic-embed-text", prompt=prompt)["embedding"]
 
     # Find most similar paragraphs
