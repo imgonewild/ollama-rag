@@ -9,16 +9,15 @@ from numpy.linalg import norm
 # Function to extract text from PDF
 def extract_text_from_pdf(filename):
     doc = fitz.open(filename)
-    text = ""
-    for page in doc:
-        text += page.get_text()
-    return text
+    pages_text = [page.get_text() for page in doc]
+    return pages_text
 
 # Function to parse text into paragraphs
-def parse_text(text):
-    paragraphs = text.split('\n\n')
-    # print(paragraphs)
-    return [para.strip() for para in paragraphs if para.strip()]
+def parse_text(pages_text):
+    paragraphs = []
+    for text in pages_text:
+        paragraphs.extend([para.strip() for para in text.split('\n\n') if para.strip()])
+    return paragraphs
 
 # Function to save embeddings
 def save_embeddings(filename, embeddings):
@@ -68,19 +67,16 @@ def main():
     """
 
     # Extract text from PDF
-    pdf_filename = "ACCU DYNE TES FLUIDS MSDS.pdf"
-    text = extract_text_from_pdf(pdf_filename)
-    paragraphs = parse_text(text)
+    pdf_filename = "Kleiberit 826.0 Cleaner.pdf"
+    pages_text = extract_text_from_pdf(pdf_filename)
+    paragraphs = parse_text(pages_text)
 
     # Get embeddings
-    embeddings_model = "llama3"
-    embeddings = get_embeddings(pdf_filename, embeddings_model , paragraphs)
+    embeddings = get_embeddings(pdf_filename, "llama3", paragraphs)
 
     # Get user query
     prompt = "What are the hazard classification associated with the product?"
     prompt = "What are the first aid measures in case of inhalation?"
-    prompt = "What are the emergency procedures in case of inhalation of the product?"
-    prompt = "What are the emergency procedures in case of skin contact with the product?"
 
     prompt_embedding = ollama.embeddings(model="llama3", prompt=prompt)["embedding"]
 
@@ -99,9 +95,7 @@ def main():
             {"role": "user", "content": prompt},
         ],
     )
-    
-    print(pdf_filename)
-    print("embeddings_model", embeddings_model)
+
     print(prompt)
     print(response["message"]["content"])
     print("--- %s seconds ---" % (time.time() - start_time))
