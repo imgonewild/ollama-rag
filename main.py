@@ -56,13 +56,39 @@ def get_embeddings(filename, modelname, chunks):
 
 
 # find cosine similarity of every chunk to a given embedding
-def find_most_similar(needle, haystack):
-    needle_norm = norm(needle)
-    similarity_scores = [
-        np.dot(needle, item) / (needle_norm * norm(item)) for item in haystack
-    ]
-    return sorted(zip(similarity_scores, range(len(haystack))), reverse=True)
+# def find_most_similar(needle, haystack):
+#     needle_norm = norm(needle)
+#     similarity_scores = [
+#         np.dot(needle, item) / (needle_norm * norm(item)) for item in haystack
+#     ]
+#     return sorted(zip(similarity_scores, range(len(haystack))), reverse=True)
 
+def find_most_similar(needle: np.ndarray, haystack: List[np.ndarray]) -> List[Tuple[float, int]]:
+    """
+    Finds the most similar items in the haystack to the needle based on cosine similarity.
+
+    Parameters:
+    needle (np.ndarray): The vector to compare against the haystack.
+    haystack (List[np.ndarray]): A list of vectors to compare to the needle.
+
+    Returns:
+    List[Tuple[float, int]]: A sorted list of tuples containing similarity scores and indices.
+                             The list is sorted in descending order of similarity.
+    """
+    needle_norm = norm(needle)
+    if needle_norm == 0:
+        raise ValueError("The norm of the needle vector is zero, which will cause division by zero.")
+
+    similarity_scores = []
+    for idx, item in enumerate(haystack):
+        item_norm = norm(item)
+        if item_norm == 0:
+            similarity_score = 0.0
+        else:
+            similarity_score = np.dot(needle, item) / (needle_norm * item_norm)
+        similarity_scores.append((similarity_score, idx))
+    
+    return sorted(similarity_scores, reverse=True)
 
 def main():
     SYSTEM_PROMPT = """You are a helpful reading assistant who answers questions 
