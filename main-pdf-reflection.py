@@ -66,7 +66,7 @@ def generate_initial_answer(context, question, model):
     ---
     Answer the question based on the above context: {question}. 
     Do not make up answers or use outside information.
-    Reply in the format: {{"answer": "your_answer_here"}}
+    Reply in the format: {{"answer": "your_answer_here", "source": "your_section_title_here"}} 
     """
     response = ollama.chat(
         model=model,
@@ -82,7 +82,8 @@ def refine_answer(context, initial_answer, model):
     critique_prompt = f"""
     Here is the initial answer: {initial_answer}
     Context: {context}
-    Check the answer for correctness, completeness, and provide constructive criticism.
+    Check the answer for correctness, completeness, and relevance to the context.
+    Reply in the format: {{"answer": "your_answer_here", "source": "your_section_title_here"}} 
     """
     critique_response = ollama.chat(
         model=model,
@@ -95,7 +96,8 @@ def refine_answer(context, initial_answer, model):
     improvement_prompt = f"""
     Using the following critique, refine the initial answer: {critique}
     Context: {context}
-    Here is the refined answer: 
+    Here is the refined answer.
+    Ensure that the refined answer addresses any issues pointed out in the critique, and reply in the format: {{"answer": "your_answer_here", "source": "your_section_title_here"}} 
     """
     refined_response = ollama.chat(
         model=model,
@@ -103,13 +105,18 @@ def refine_answer(context, initial_answer, model):
             {"role": "system", "content": improvement_prompt},
         ],
     )
-    return refined_response["message"]["content"]
+    refined_answer = refined_response["message"]["content"]
 
+    # Check if the refined answer is the same as the initial answer
+    if refined_answer == initial_answer:
+        return f'No changes were needed. Initial and refined answers are the same: {initial_answer}'
+    
+    return refined_answer
 def main():
     start_time = time.time()
 
     # Extract text from PDF
-    pdf_filename = "ACCU DYNE TES FLUIDS MSDS.pdf"
+    pdf_filename = "Adhesive, 3M Spray Adhesive 90 SDS (aerosol).pdf"
     text = extract_text_from_pdf(pdf_filename)
     paragraphs = parse_text(text)
 
@@ -120,24 +127,32 @@ def main():
 
     # Get user query
     prompt = "What are the first aid measures in case of swallowing?"
+    prompt = "What are the first aid measures in case of inhalation?"
+    prompt = "What is the signal word?"
 
     prompt_embedding = ollama.embeddings(model=embeddings_model, prompt=prompt)["embedding"]
 
     # Find most similar paragraphs
     most_similar_chunks = find_most_similar(prompt_embedding, embeddings)[:5]
     context = "\n".join(paragraphs[idx] for _, idx in most_similar_chunks)
+    f = open(pdf_filename+".txt", "a")
+    f.write(context)
+    f.close()
 
     # Generate initial answer
     initial_answer = generate_initial_answer(context, prompt, respond_model)
     
     # Refine the answer using reflection
     refined_answer = refine_answer(context, initial_answer, respond_model)
+    # refined_answer_2 = refine_answer(context, refined_answer, respond_model)
 
     print(pdf_filename)
     print("embeddings_model: ", embeddings_model)
     print("Q: " + prompt)
     print("Initial Answer: " + initial_answer)
     print("Refined Answer: " + refined_answer)
+    # print("2nd Refined Answer: " + refined_answer_2)
+
     print("--- %s seconds ---" % (time.time() - start_time))
 
 if __name__ == "__main__":

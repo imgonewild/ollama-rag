@@ -1,0 +1,851 @@
+1-888-3M HELPS (1-888-364-3577)
+1.4. Emergency telephone number
+1-800-364-3577 or (651) 737-6501 (24 hours)
+SECTION 2: Hazard identification
+2.1. Hazard classification
+Flammable Aerosol: Category 1.
+Serious Eye Damage/Irritation: Category 2B.
+Simple Asphyxiant.
+Specific Target Organ Toxicity (single exposure): Category 1.
+Specific Target Organ Toxicity (central nervous system): Category 3.
+Specific Target Organ Toxicity (respiratory irritation): Category 3.
+2.2. Label elements
+Signal word
+Danger
+Symbols
+Flame |  Exclamation mark |   Health Hazard | 
+3M™Hi-Strength Spray Adhesive 90 (aerosol)    09/09/14
+__________________________________________________________________________________________
+ 
+ Page  2  of    12
+Pictograms
+Hazard Statements
+Extremely flammable aerosol. 
+Causes eye irritation. 
+May cause respiratory irritation. 
+May cause drowsiness or dizziness. 
+May displace oxygen and cause rapid suffocation. 
+Causes damage to organs: 
+cardiovascular system  | 
+Precautionary Statements
+General:
+Keep out of reach of children. 
+Prevention:
+Keep away from heat/sparks/open flames/hot surfaces. - No smoking. 
+Do not spray on an open flame or other ignition source. 
+Pressurized container: Do not pierce or burn, even after use. 
+Do not breathe dust/fume/gas/mist/vapors/spray. 
+Use only outdoors or in a well-ventilated area. 
+Do not eat, drink or smoke when using this product. 
+Wash thoroughly after handling. 
+Response:
+Avoid release to the environment. 
+6.3. Methods and material for containment and cleaning up
+If possible, seal leaking container. Place leaking containers in a well-ventilated area, preferably an operating exhaust hood, or 
+if necessary outdoors on an impermeable surface until appropriate packaging for the leaking container or its contents is 
+available.  Close cylinder.  Collect as much of the spilled material as possible using non-sparking tools.  Place in a metal 
+container approved for transportation by appropriate authorities.  Dispose of collected material as soon as possible.
+SECTION 7: Handling and storage
+7.1. Precautions for safe handling
+Keep out of reach of children.   Keep away from heat/sparks/open flames/hot surfaces. - No smoking.   Do not spray on an 
+open flame or other ignition source.   Do not pierce or burn, even after use.  Do not breathe dust/fume/gas/mist/vapors/spray.  
+Do not get in eyes, on skin, or on clothing.   Do not eat, drink or smoke when using this product.   Wash thoroughly after 
+handling.  Avoid release to the environment.   Avoid contact with oxidizing agents (eg. chlorine, chromic acid etc.)
+7.2. Conditions for safe storage including any incompatibilities
+Store in a well-ventilated place.  Keep container tightly closed.   Protect from sunlight.  Do not expose to temperatures 
+exceeding 50C/122F.   Store away from heat.  Store away from acids.  Store away from oxidizing agents.
+SECTION 8: Exposure controls/personal protection
+CEIL: Ceiling
+8.2. Exposure controls
+8.2.1. Engineering controls
+3M™Hi-Strength Spray Adhesive 90 (aerosol)    09/09/14
+__________________________________________________________________________________________
+ 
+ Page  5  of    12
+Do not remain in area where available oxygen may be reduced.  Use general dilution ventilation and/or local exhaust 
+ventilation to control airborne exposures to below relevant Exposure Limits and/or control dust/fume/gas/mist/vapors/spray. 
+If ventilation is not adequate, use respiratory protection equipment.
+8.2.2. Personal protective equipment (PPE)
+Eye/face protection
+Select and use eye/face protection to prevent contact based on the results of an exposure assessment.  The following eye/face
+protection(s) are recommended:
+Indirect Vented Goggles
+Skin/hand protection
+Select and use gloves and/or protective clothing approved to relevant local standards to prevent skin contact based on the 
+results of an exposure assessment. Selection should be based on use factors such as exposure levels, concentration of the 
+substance or mixture, frequency and duration, physical challenges such as temperature extremes, and other use conditions. 
+Consult with your glove and/or protective clothing manufacturer for selection of appropriate compatible gloves/protective 
+clothing.
+Gloves made from the following material(s) are recommended:  Butyl Rubber
+Nitrile Rubber
+Respiratory protection
+data are not sufficient for 
+classification
+Mouse
+NOAEL 24 
+mg/l
+14 weeks
+Cyclohexane
+Inhalation
+peripheral nervous 
+system
+All data are negative
+Rat
+NOAEL 8.6 
+mg/l
+30 weeks
+Pentane
+Inhalation
+peripheral nervous 
+system
+Some positive data exist, but the 
+data are not sufficient for 
+classification
+Human
+NOAEL Not 
+available 
+occupational 
+exposure
+Pentane
+Inhalation
+heart | skin | 
+endocrine system | 
+bone, teeth, nails, 
+and/or hair | 
+hematopoietic 
+system | liver | 
+immune system | 
+muscles | nervous 
+system | eyes | 
+kidney and/or 
+bladder | respiratory 
+system
+All data are negative
+Rat
+NOAEL 20 
+mg/l
+13 weeks
+Pentane
+Ingestion
+kidney and/or 
+bladder
+All data are negative
+Rat
+NOAEL 
+2,000 
+mg/kg/day
+28 days
+1,1-Difluoroethane
+Inhalation
+hematopoietic 
+system | kidney 
+and/or bladder | 
+respiratory system
+Some positive data exist, but the 
+data are not sufficient for 
+classification
+Rat
+NOAEL 
+25,000 ppm
+2 years
+Aspiration Hazard
+Name
+Value
+Cyclohexane
+Aspiration hazard
+Pentane
+Aspiration hazard
+Please contact the address or phone number listed on the first page of the SDS for additional toxicological information 
+on this material and/or its components.
+SECTION 12: Ecological information
+Ecotoxicological information
+Please contact the address or phone number listed on the first page of the SDS for additional ecotoxicological information on this material 
+and/or its components.
+Chemical fate information
+classification
+Human 
+and 
+animal
+NOAEL Not 
+available 
+Pentane
+Inhalation
+central nervous 
+system depression
+May cause drowsiness or 
+dizziness
+Multiple 
+animal 
+species
+NOAEL Not 
+available 
+not available
+Pentane
+Inhalation
+respiratory irritation
+Some positive data exist, but the 
+data are not sufficient for 
+classification
+Not 
+available
+NOAEL Not 
+available 
+not available
+Pentane
+Inhalation
+cardiac 
+sensitization
+Some positive data exist, but the 
+data are not sufficient for 
+classification
+Dog
+NOAEL Not 
+available 
+not available
+1,1-Difluoroethane
+Inhalation
+cardiac 
+sensitization
+Causes damage to organs
+Human 
+and 
+animal
+NOAEL Not 
+available 
+poisoning 
+and/or abuse
+1,1-Difluoroethane
+Inhalation
+central nervous 
+system depression
+May cause drowsiness or 
+dizziness
+Human 
+and 
+animal
+NOAEL 
+100,000 ppm
+1,1-Difluoroethane
+Inhalation
+respiratory irritation
+Some positive data exist, but the 
+data are not sufficient for 
+classification
+Not 
+available
+NOAEL Not 
+available 
+not available
+Specific Target Organ Toxicity - repeated exposure
+Name
+Route
+Target Organ(s)
+Value
+Species
+Test Result 
+Exposure 
+Duration
+Dimethyl ether
+Inhalation
+hematopoietic 
+system
+Some positive data exist, but the 
+data are not sufficient for 
+classification
+Rat
+NOAEL 
+25,000 ppm
+2 years
+Dimethyl ether
+Inhalation
+liver
+Some positive data exist, but the 
+data are not sufficient for 
+classification
+Rat
+NOAEL 
+20,000 ppm
+30 weeks
+Methyl acetate
+Inhalation
+respiratory systemCEIL: Ceiling
+8.2. Exposure controls
+8.2.1. Engineering controls
+3M™Hi-Strength Spray Adhesive 90 (aerosol)    09/09/14
+__________________________________________________________________________________________
+ 
+ Page  5  of    12
+Do not remain in area where available oxygen may be reduced.  Use general dilution ventilation and/or local exhaust 
+ventilation to control airborne exposures to below relevant Exposure Limits and/or control dust/fume/gas/mist/vapors/spray. 
+If ventilation is not adequate, use respiratory protection equipment.
+8.2.2. Personal protective equipment (PPE)
+Eye/face protection
+Select and use eye/face protection to prevent contact based on the results of an exposure assessment.  The following eye/face
+protection(s) are recommended:
+Indirect Vented Goggles
+Skin/hand protection
+Select and use gloves and/or protective clothing approved to relevant local standards to prevent skin contact based on the 
+results of an exposure assessment. Selection should be based on use factors such as exposure levels, concentration of the 
+substance or mixture, frequency and duration, physical challenges such as temperature extremes, and other use conditions. 
+Consult with your glove and/or protective clothing manufacturer for selection of appropriate compatible gloves/protective 
+clothing.
+Gloves made from the following material(s) are recommended:  Butyl Rubber
+Nitrile Rubber
+Respiratory protection
+Avoid release to the environment. 
+6.3. Methods and material for containment and cleaning up
+If possible, seal leaking container. Place leaking containers in a well-ventilated area, preferably an operating exhaust hood, or 
+if necessary outdoors on an impermeable surface until appropriate packaging for the leaking container or its contents is 
+available.  Close cylinder.  Collect as much of the spilled material as possible using non-sparking tools.  Place in a metal 
+container approved for transportation by appropriate authorities.  Dispose of collected material as soon as possible.
+SECTION 7: Handling and storage
+7.1. Precautions for safe handling
+Keep out of reach of children.   Keep away from heat/sparks/open flames/hot surfaces. - No smoking.   Do not spray on an 
+open flame or other ignition source.   Do not pierce or burn, even after use.  Do not breathe dust/fume/gas/mist/vapors/spray.  
+Do not get in eyes, on skin, or on clothing.   Do not eat, drink or smoke when using this product.   Wash thoroughly after 
+handling.  Avoid release to the environment.   Avoid contact with oxidizing agents (eg. chlorine, chromic acid etc.)
+7.2. Conditions for safe storage including any incompatibilities
+Store in a well-ventilated place.  Keep container tightly closed.   Protect from sunlight.  Do not expose to temperatures 
+exceeding 50C/122F.   Store away from heat.  Store away from acids.  Store away from oxidizing agents.
+SECTION 8: Exposure controls/personal protection
+1-888-3M HELPS (1-888-364-3577)
+1.4. Emergency telephone number
+1-800-364-3577 or (651) 737-6501 (24 hours)
+SECTION 2: Hazard identification
+2.1. Hazard classification
+Flammable Aerosol: Category 1.
+Serious Eye Damage/Irritation: Category 2B.
+Simple Asphyxiant.
+Specific Target Organ Toxicity (single exposure): Category 1.
+Specific Target Organ Toxicity (central nervous system): Category 3.
+Specific Target Organ Toxicity (respiratory irritation): Category 3.
+2.2. Label elements
+Signal word
+Danger
+Symbols
+Flame |  Exclamation mark |   Health Hazard | 
+3M™Hi-Strength Spray Adhesive 90 (aerosol)    09/09/14
+__________________________________________________________________________________________
+ 
+ Page  2  of    12
+Pictograms
+Hazard Statements
+Extremely flammable aerosol. 
+Causes eye irritation. 
+May cause respiratory irritation. 
+May cause drowsiness or dizziness. 
+May displace oxygen and cause rapid suffocation. 
+Causes damage to organs: 
+cardiovascular system  | 
+Precautionary Statements
+General:
+Keep out of reach of children. 
+Prevention:
+Keep away from heat/sparks/open flames/hot surfaces. - No smoking. 
+Do not spray on an open flame or other ignition source. 
+Pressurized container: Do not pierce or burn, even after use. 
+Do not breathe dust/fume/gas/mist/vapors/spray. 
+Use only outdoors or in a well-ventilated area. 
+Do not eat, drink or smoke when using this product. 
+Wash thoroughly after handling. 
+Response:
+data are not sufficient for 
+classification
+Mouse
+NOAEL 24 
+mg/l
+14 weeks
+Cyclohexane
+Inhalation
+peripheral nervous 
+system
+All data are negative
+Rat
+NOAEL 8.6 
+mg/l
+30 weeks
+Pentane
+Inhalation
+peripheral nervous 
+system
+Some positive data exist, but the 
+data are not sufficient for 
+classification
+Human
+NOAEL Not 
+available 
+occupational 
+exposure
+Pentane
+Inhalation
+heart | skin | 
+endocrine system | 
+bone, teeth, nails, 
+and/or hair | 
+hematopoietic 
+system | liver | 
+immune system | 
+muscles | nervous 
+system | eyes | 
+kidney and/or 
+bladder | respiratory 
+system
+All data are negative
+Rat
+NOAEL 20 
+mg/l
+13 weeks
+Pentane
+Ingestion
+kidney and/or 
+bladder
+All data are negative
+Rat
+NOAEL 
+2,000 
+mg/kg/day
+28 days
+1,1-Difluoroethane
+Inhalation
+hematopoietic 
+system | kidney 
+and/or bladder | 
+respiratory system
+Some positive data exist, but the 
+data are not sufficient for 
+classification
+Rat
+NOAEL 
+25,000 ppm
+2 years
+Aspiration Hazard
+Name
+Value
+Cyclohexane
+Aspiration hazard
+Pentane
+Aspiration hazard
+Please contact the address or phone number listed on the first page of the SDS for additional toxicological information 
+on this material and/or its components.
+SECTION 12: Ecological information
+Ecotoxicological information
+Please contact the address or phone number listed on the first page of the SDS for additional ecotoxicological information on this material 
+and/or its components.
+Chemical fate information
+classification
+Human 
+and 
+animal
+NOAEL Not 
+available 
+Pentane
+Inhalation
+central nervous 
+system depression
+May cause drowsiness or 
+dizziness
+Multiple 
+animal 
+species
+NOAEL Not 
+available 
+not available
+Pentane
+Inhalation
+respiratory irritation
+Some positive data exist, but the 
+data are not sufficient for 
+classification
+Not 
+available
+NOAEL Not 
+available 
+not available
+Pentane
+Inhalation
+cardiac 
+sensitization
+Some positive data exist, but the 
+data are not sufficient for 
+classification
+Dog
+NOAEL Not 
+available 
+not available
+1,1-Difluoroethane
+Inhalation
+cardiac 
+sensitization
+Causes damage to organs
+Human 
+and 
+animal
+NOAEL Not 
+available 
+poisoning 
+and/or abuse
+1,1-Difluoroethane
+Inhalation
+central nervous 
+system depression
+May cause drowsiness or 
+dizziness
+Human 
+and 
+animal
+NOAEL 
+100,000 ppm
+1,1-Difluoroethane
+Inhalation
+respiratory irritation
+Some positive data exist, but the 
+data are not sufficient for 
+classification
+Not 
+available
+NOAEL Not 
+available 
+not available
+Specific Target Organ Toxicity - repeated exposure
+Name
+Route
+Target Organ(s)
+Value
+Species
+Test Result 
+Exposure 
+Duration
+Dimethyl ether
+Inhalation
+hematopoietic 
+system
+Some positive data exist, but the 
+data are not sufficient for 
+classification
+Rat
+NOAEL 
+25,000 ppm
+2 years
+Dimethyl ether
+Inhalation
+liver
+Some positive data exist, but the 
+data are not sufficient for 
+classification
+Rat
+NOAEL 
+20,000 ppm
+30 weeks
+Methyl acetate
+Inhalation
+respiratory systemCEIL: Ceiling
+8.2. Exposure controls
+8.2.1. Engineering controls
+3M™Hi-Strength Spray Adhesive 90 (aerosol)    09/09/14
+__________________________________________________________________________________________
+ 
+ Page  5  of    12
+Do not remain in area where available oxygen may be reduced.  Use general dilution ventilation and/or local exhaust 
+ventilation to control airborne exposures to below relevant Exposure Limits and/or control dust/fume/gas/mist/vapors/spray. 
+If ventilation is not adequate, use respiratory protection equipment.
+8.2.2. Personal protective equipment (PPE)
+Eye/face protection
+Select and use eye/face protection to prevent contact based on the results of an exposure assessment.  The following eye/face
+protection(s) are recommended:
+Indirect Vented Goggles
+Skin/hand protection
+Select and use gloves and/or protective clothing approved to relevant local standards to prevent skin contact based on the 
+results of an exposure assessment. Selection should be based on use factors such as exposure levels, concentration of the 
+substance or mixture, frequency and duration, physical challenges such as temperature extremes, and other use conditions. 
+Consult with your glove and/or protective clothing manufacturer for selection of appropriate compatible gloves/protective 
+clothing.
+Gloves made from the following material(s) are recommended:  Butyl Rubber
+Nitrile Rubber
+Respiratory protection
+data are not sufficient for 
+classification
+Mouse
+NOAEL 24 
+mg/l
+14 weeks
+Cyclohexane
+Inhalation
+peripheral nervous 
+system
+All data are negative
+Rat
+NOAEL 8.6 
+mg/l
+30 weeks
+Pentane
+Inhalation
+peripheral nervous 
+system
+Some positive data exist, but the 
+data are not sufficient for 
+classification
+Human
+NOAEL Not 
+available 
+occupational 
+exposure
+Pentane
+Inhalation
+heart | skin | 
+endocrine system | 
+bone, teeth, nails, 
+and/or hair | 
+hematopoietic 
+system | liver | 
+immune system | 
+muscles | nervous 
+system | eyes | 
+kidney and/or 
+bladder | respiratory 
+system
+All data are negative
+Rat
+NOAEL 20 
+mg/l
+13 weeks
+Pentane
+Ingestion
+kidney and/or 
+bladder
+All data are negative
+Rat
+NOAEL 
+2,000 
+mg/kg/day
+28 days
+1,1-Difluoroethane
+Inhalation
+hematopoietic 
+system | kidney 
+and/or bladder | 
+respiratory system
+Some positive data exist, but the 
+data are not sufficient for 
+classification
+Rat
+NOAEL 
+25,000 ppm
+2 years
+Aspiration Hazard
+Name
+Value
+Cyclohexane
+Aspiration hazard
+Pentane
+Aspiration hazard
+Please contact the address or phone number listed on the first page of the SDS for additional toxicological information 
+on this material and/or its components.
+SECTION 12: Ecological information
+Ecotoxicological information
+Please contact the address or phone number listed on the first page of the SDS for additional ecotoxicological information on this material 
+and/or its components.
+Chemical fate information
+classification
+Rat
+NOAEL 
+25,000 ppm
+2 years
+Dimethyl ether
+Inhalation
+liver
+Some positive data exist, but the 
+data are not sufficient for 
+classification
+Rat
+NOAEL 
+20,000 ppm
+30 weeks
+Methyl acetate
+Inhalation
+respiratory system
+Some positive data exist, but the 
+data are not sufficient for 
+classification
+Rat
+NOAEL 1.1 
+mg/l
+28 days
+Methyl acetate
+Inhalation
+endocrine system | 
+hematopoietic 
+system | liver | 
+Some positive data exist, but the 
+data are not sufficient for 
+classification
+Rat
+NOAEL 6.1 
+mg/l
+28 days
+3M™Hi-Strength Spray Adhesive 90 (aerosol)    09/09/14
+__________________________________________________________________________________________
+ 
+ Page  10  of    12
+immune system | 
+kidney and/or 
+bladder
+Cyclohexane
+Inhalation
+liver
+Some positive data exist, but the 
+data are not sufficient for 
+classification
+Rat
+NOAEL 24 
+mg/l
+90 days
+Cyclohexane
+Inhalation
+auditory system
+Some positive data exist, but the 
+data are not sufficient for 
+classification
+Rat
+NOAEL 1.7 
+mg/l
+90 days
+Cyclohexane
+Inhalation
+kidney and/or 
+bladder
+Some positive data exist, but the 
+data are not sufficient for 
+classification
+Rabbit
+NOAEL 2.7 
+mg/l
+10 weeks
+Cyclohexane
+Inhalation
+hematopoietic 
+system
+Some positive data exist, but the 
+data are not sufficient for 
+classification
+Mouse
+NOAEL 24 
+mg/l
+14 weeks
+Cyclohexane
+Inhalation
+peripheral nervous 
+system
+All data are negative
+Rat
+NOAEL 8.6 
+mg/l
+30 weeks
+Pentane
+Inhalation
+peripheral nervous 
+system
+1-888-3M HELPS (1-888-364-3577)
+1.4. Emergency telephone number
+1-800-364-3577 or (651) 737-6501 (24 hours)
+SECTION 2: Hazard identification
+2.1. Hazard classification
+Flammable Aerosol: Category 1.
+Serious Eye Damage/Irritation: Category 2B.
+Simple Asphyxiant.
+Specific Target Organ Toxicity (single exposure): Category 1.
+Specific Target Organ Toxicity (central nervous system): Category 3.
+Specific Target Organ Toxicity (respiratory irritation): Category 3.
+2.2. Label elements
+Signal word
+Danger
+Symbols
+Flame |  Exclamation mark |   Health Hazard | 
+3M™Hi-Strength Spray Adhesive 90 (aerosol)    09/09/14
+__________________________________________________________________________________________
+ 
+ Page  2  of    12
+Pictograms
+Hazard Statements
+Extremely flammable aerosol. 
+Causes eye irritation. 
+May cause respiratory irritation. 
+May cause drowsiness or dizziness. 
+May displace oxygen and cause rapid suffocation. 
+Causes damage to organs: 
+cardiovascular system  | 
+Precautionary Statements
+General:
+Keep out of reach of children. 
+Prevention:
+Keep away from heat/sparks/open flames/hot surfaces. - No smoking. 
+Do not spray on an open flame or other ignition source. 
+Pressurized container: Do not pierce or burn, even after use. 
+Do not breathe dust/fume/gas/mist/vapors/spray. 
+Use only outdoors or in a well-ventilated area. 
+Do not eat, drink or smoke when using this product. 
+Wash thoroughly after handling. 
+Response:
+exceeding 50C/122F.   Store away from heat.  Store away from acids.  Store away from oxidizing agents.
+SECTION 8: Exposure controls/personal protection
+8.1. Control parameters
+Occupational exposure limits
+If a component is disclosed in section 3 but does not appear in the table below, an occupational exposure limit is not available 
+for the component.
+Ingredient
+C.A.S. No.
+Agency
+Limit type
+Additional Comments
+Pentane
+109-66-0
+ACGIH
+TWA:1000 ppm
+Pentane
+109-66-0
+OSHA
+TWA:2950 mg/m3(1000 ppm)
+Cyclohexane
+110-82-7
+ACGIH
+TWA:100 ppm
+Cyclohexane
+110-82-7
+OSHA
+TWA:1050 mg/m3(300 ppm)
+Dimethyl ether
+115-10-6
+AIHA
+TWA:1880 mg/m3(1000 ppm)
+Dimethyl ether
+115-10-6
+CMRG
+TWA:1000 ppm
+1,1-Difluoroethane
+75-37-6
+AIHA
+TWA:2700 mg/m3(1000 ppm)
+1,1-Difluoroethane
+75-37-6
+CMRG
+TWA:1000 ppm
+Methyl acetate
+79-20-9
+ACGIH
+TWA:200 ppm;STEL:250 ppm
+Methyl acetate
+79-20-9
+OSHA
+TWA:610 mg/m3(200 ppm)
+ACGIH : American Conference of Governmental Industrial Hygienists
+AIHA : American Industrial Hygiene Association
+CMRG : Chemical Manufacturer's Recommended Guidelines
+OSHA : United States Department of Labor - Occupational Safety and Health Administration
+TWA: Time-Weighted-Average
+STEL: Short Term Exposure Limit
+CEIL: Ceiling
+8.2. Exposure controls
+8.2.1. Engineering controls
+3M™Hi-Strength Spray Adhesive 90 (aerosol)    09/09/14
+__________________________________________________________________________________________
+ 
+ Page  5  of    12
